@@ -8,6 +8,7 @@ open http://localhost:8080/
 
 
 cd $curr_dir
+virtualenv env
 source env/bin/activate
 pip install -r requirements.txt
 
