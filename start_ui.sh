@@ -10,6 +10,7 @@ cd $ui_dir
 if which node > /dev/null
 then
     npm install -g @vue/cli
+    npm install
     npm run build
     npm run serve
 else
