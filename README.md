@@ -18,8 +18,9 @@ Looking at the book list, there are already a couple of textbooks that caught my
 
 
 ### Deployment of UI
-In one terminal, run start_flask.sh.
-In another terminal, run start_ui.sh.
+In one terminal, run start_ui.sh.
+
+In another terminal, run start_flask.sh.
 
 
 ### Future Works
