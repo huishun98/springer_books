@@ -17,6 +17,10 @@ Looking at the book list, there are already a couple of textbooks that caught my
 *Springer COVID-19 Books.py running on VSCode*
 
 
+### Deployment of UI
+In one terminal, run start_flask.sh.
+In another terminal, run start_ui.sh.
+
 
 ### Future Works
 
