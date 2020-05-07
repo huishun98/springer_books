@@ -8,9 +8,7 @@ cd $curr_dir
 
 if [[ ! "$(python3 -V)" =~ "Python 3" ]]
 then
-    tput setaf 1
     echo "Please download Python at https://www.python.org/"
-    exit 1
 fi
 
 pip install virtualenv
