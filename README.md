@@ -13,7 +13,7 @@ These books will be made [available](https://www.springernature.com/gp/librarian
 By default, the books will be downloaded into the `Downloads` folder.
 
 
-### Deployment of UI
+### Running locally
 1. Run the file `start_ui.sh`.
 2. Run the file `start_flask.sh`.
 
