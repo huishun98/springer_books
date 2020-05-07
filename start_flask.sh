@@ -7,8 +7,10 @@ flask_dir="$curr_dir/$flask_dir_name"
 cd $curr_dir
 
 if [[ ! "$(python3 -V)" =~ "Python 3" ]]
-then 
+then
+    tput setaf 1
     echo "Please download Python at https://www.python.org/"
+    exit 1
 fi
 
 pip install virtualenv

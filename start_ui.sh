@@ -5,11 +5,14 @@ ui_dir="$curr_dir/$ui_dir_name"
 
 cd $ui_dir
 
+
+
 if which node > /dev/null
 then
     npm run build
     npm run serve
 else
-    echo 'Please download Node.js'
-    open https://nodejs.org/en/
+    tput setaf 1
+    echo 'Please download Node.js from https://nodejs.org/en/'
+    $SHELL
 fi
